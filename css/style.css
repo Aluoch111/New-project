@@ -1,10 +1,15 @@
 *{
     font-family:sans-serif  ;
-    font-size: larger;
+    font-size: medium;
 }
 ul{
+    background-color: rgba(12, 1, 70, 0.568);
+    padding: 25px;
+    list-style-type: none;    
+}
+header{
     display: inline;
 }
-button{
+li{
     display: inline;
 }
