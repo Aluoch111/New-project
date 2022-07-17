@@ -40,5 +40,19 @@ function report(){
     document.getElementById("outputData").innerHTML += "<Br>"
 
 
+    incomeJan = dailyIncome * 31;
+    incomeFeb= dailyIncome * 29;
+    incomeMar = dailyIncome * 31;
+    incomeApr = dailyIncome * 30;
+    incomeMay = dailyIncome * 31;
+    incomeJun = dailyIncome * 30;
+    incomeJul = dailyIncome * 31;
+    incomeAug = dailyIncome * 31;
+    incomeSept = dailyIncome * 30;
+    incomeOct= dailyIncome * 31;
+    incomeNov = dailyIncome * 30;
+    incomeDec = dailyIncome * 31;
+
+
 
 }
