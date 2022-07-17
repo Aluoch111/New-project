@@ -71,7 +71,7 @@ function report(){
 
     incomeInLeapYear = dailyIncome * 366;
 
-    document.getElementById("outputData").innerHTML += "<p>Your total income in a leap year is Ksh. " + incomeInLeapYear + " </p>";
+    document.getElementById("outputData").innerHTML += "<p>Total income in a leap year is Ksh. " + incomeInLeapYear + " </p>";
 
     document.getElementById("outputData").innerHTML += "<hr>"
 
