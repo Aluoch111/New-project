@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dairy Farm</title>
-    <link rel="stylesheet" href="./Assets/css/style.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
     
 </head>
 <body>
@@ -15,29 +15,41 @@
             <form action="submit" onsubmit="report();">
                 <div id="shed">
                     <label for="shed_A">shed A</label>
-                    <input  id="she_A" type="number" required>
+                    <input  id="she_A" type="number" min="0" required>
                 </div>
+
                 <div id="shed">
                     <label for="shed_B">shed B</label>
-                    <input  id="shed_B" type="number" required>
+                    <input  id="shed_B" type="number" min="0" required>
                 </div>
+
                 <div id="shed">
                     <label for="shed_C">shed C</label>
-                    <input  id="shed_C" type="number" required>
+                    <input  id="shed_C" type="number" min="0" required>
                 </div>
+
                 <div id="shed">
                     <label for="shed_D">shed D</label>
-                    <input  id="shed_D" type="number" required>
+                    <input  id="shed_D" type="number" min="0" required>
                 </div>
+
                 <br>
                 <button type="submit">DONE</button>
+                <button id="reset" type="reset" onclick="resetPage();">Reset</button>
             </form>
-        </div>
-        <h2>Production</h2>
+    </div>
+            <div class="output">
+                    <h2>Production</h2>
+                    <br>
+                    <p id="outputData"></p>
+            </div>
+    
+
+    
 
 
 
 
-   <script src="./Assets/data.js"></script>
+   <script src="Assets/JS/data.js"></script>
 </body>
 </html>

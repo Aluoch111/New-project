@@ -1,5 +1,6 @@
 function report(){
-    Event.preventDefault();
+
+    event.preventDefault();
 
     let data = [] ;
 
@@ -8,7 +9,7 @@ function report(){
         data [2] = ["shed_C"] = parseInt(document.getElementById("shed_C").value);
         data [3] = ["shed_D"] = parseInt(document.getElementById("shed_D").value);
 
-    let sumData = data.shed_A + data.shed_A + data.shed_C + data.shed_D; 
+    let sumData = data.shed_A + data.shed_B + data.shed_C + data.shed_D; 
     
     document.getElementById("outputData").innerHTML += "<Br>"
 
