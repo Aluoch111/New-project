@@ -9,8 +9,8 @@ function report(){
         data [3] = ["shed_C"] = parseInt(document.getElementById("shed_C").value);
         data [4] = ["shed_D"] = parseInt(document.getElementById("shed_D").value);
 
-    let sumData = data.shed_A + data.shed_B + data.shed_C + data.shed_D; 
-    
+    let sumData = [data.shed_A + data.shed_B + data.shed_C + data.shed_D ]
+  
     document.getElementById("outputData").innerHTML += "<Br>"
 
     document.getElementById("outputData").innerHTML += "<p>Your production in shed A is " + data.shed_A + " litres/day</p>";
