@@ -1,7 +1,6 @@
 function report(){
 
-    event.preventDefault();
-
+    
     let data = [] ;
 
         data [1] = ["shed_A"] = parseInt(document.getElementById("shed_A").value);
